@@ -1,0 +1,48 @@
+*.pyc
+*/__pycache__/*
+
+*.sql
+# test file
+*_test.py
+do_*.py
+*_test.ipynb
+*.log
+# output
+crawling_data/
+
+log/*
+#for secu
+.env
+pem/
+key-BT.pem
+tokes/*
+
+#.vscode
+.vscode/
+
+# virtual enviroment
+.venv/*
+
+# testing jupyter notebook
+
+.ipynb_checkpoints/*
+
+*.docx
+*.pdf
+
+analyst_files/*
+
+crawling_data_archive/*
+
+reports/*
+
+# locker of drawio
+*.dtmp
+*.bkp
+
+# locker of excel file
+*.xlsx#
+
+*.bat
+
+*.sh

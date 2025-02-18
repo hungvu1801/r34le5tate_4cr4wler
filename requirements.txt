@@ -1,0 +1,11 @@
+pandas
+beautifulsoup4
+numpy
+python-dotenv
+selenium
+requests
+jupyter
+webdriver_manager
+seaborn
+pytest
+watchdog

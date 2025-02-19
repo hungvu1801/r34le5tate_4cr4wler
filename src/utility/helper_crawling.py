@@ -1,4 +1,4 @@
-import time
+import time, os
 
 def scroll_page_down(driver, height=None, SCROLL_PAUSE_TIME=2):
     if not height:
@@ -17,3 +17,10 @@ def scroll_page_down(driver, height=None, SCROLL_PAUSE_TIME=2):
             last_height = new_height
     else:
         driver.execute_script(f"window.scrollTo(0, {height});")
+
+def create_directory(directory):
+    try:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+    except OSError:
+        print("Directory not exists.")

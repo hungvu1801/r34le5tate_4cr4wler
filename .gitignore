@@ -26,6 +26,7 @@ tokes/*
 # testing jupyter notebook
 
 .ipynb_checkpoints/*
+*.ipynb
 
 *.docx
 *.pdf

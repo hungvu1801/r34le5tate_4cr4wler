@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
-async def open_driver(headless=False)-> webdriver.Chrome:
+def open_driver(headless=False)-> webdriver.Chrome:
     """
     Docstring:
     
@@ -28,7 +28,7 @@ async def open_driver(headless=False)-> webdriver.Chrome:
             options.add_argument("--headless")
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
-        options.add_argument('--blink-settings=imagesEnabled=false')
+        # options.add_argument('--blink-settings=imagesEnabled=false')
         options.add_argument("--window-size=1920,1080")
         driver = webdriver.Chrome(service=service, options=options)
         #####################################################

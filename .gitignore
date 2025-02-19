@@ -47,3 +47,5 @@ reports/*
 *.bat
 
 *.sh
+
+data/*
